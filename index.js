@@ -12,3 +12,14 @@ function isPrime(num) {
 
 console.log(isPrime(2));
 console.log(isPrime(4));
+
+function evenOdd(num){
+    if(num % 2 === 0){
+        return true;
+    }else{
+        return false;
+    }
+}
+
+console.log(isPrime(2));
+console.log(isPrime(99));
